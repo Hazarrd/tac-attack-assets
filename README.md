@@ -6,6 +6,7 @@ Sprite sheets, stills and music for the TAC ATTACK tic-tac-toe game on battleVS.
 - player/stills/: one small still per pose, player/stills.json: anchor and scale
 - agent/agent.json + agent-N.webp: the robot, same format, 14 poses (R01 to R14); each texture entry carries its anchor, scale and loop modes ("tac")
 - agent/stills/, agent/stills.json: one small still per robot pose
+- sfx/: announcer lines (you_win, you_lose, winner, game_over, tie, final_round) from Kenney's Voiceover Pack Fighter (CC0, see sfx/License-Kenney.txt), trimmed and loudness matched
 - music/music.mp3 + music.json: the game music; the intro plays once, then it loops between loopStart and loopEnd (seconds)
 
-Tags: v1 is the boy only; v2 adds the robot and the music. The game pins a tag, so later changes here never change a released version.
+Tags: v1 is the boy only; v2 adds the robot and the music; v3 adds the announcer lines. The game pins a tag, so later changes here never change a released version.
